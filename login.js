@@ -22,6 +22,6 @@ form1.addEventListener("submit", (event) => {
 
 });
 
-function cadastrar(){
+function cadastrar_aluno(){
     window.location.replace("http://127.0.0.1:5500/Cadastro.html");
 }

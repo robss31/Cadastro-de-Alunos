@@ -15,7 +15,6 @@ form.addEventListener("submit", (event) => {
         return;
 
     } else {
-        //alert("Deus é maior");
 
         localStorage.setItem("Nome", inputname.value);
         localStorage.setItem("Email", inputemail.value);
@@ -25,10 +24,10 @@ form.addEventListener("submit", (event) => {
         localStorage.setItem("Sexo", inputsexo.value);
 
 
-        window.alert("Cadastrado com sucesso");
+        window.alert("Aluno Cadastrado Com Sucesso");
         window.location.replace("http://127.0.0.1:5500/index.html");
 
-       // form.submit();
+        // form.submit();
     }
 });
 
