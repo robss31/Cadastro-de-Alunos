@@ -16,7 +16,7 @@ body {
     align-items: center;
 }
 
-#form {
+#myForm {
     display: flex;
     flex-direction: column;
     width: 400px;
